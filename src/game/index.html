@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REPOSHOOT</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    html {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #000;
+    }
+    
+    body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #0d1117;
+      font-family: monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    #gameCanvas {
+      width: 100vw;
+      height: 100vh;
+      max-width: calc(100vh * 4 / 3);
+      max-height: calc(100vw * 3 / 4);
+      cursor: none;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+  
+  <script src="utils.js" defer></script>
+  <script src="input.js" defer></script>
+  <script src="audio.js" defer></script>
+  <script src="sprites.js" defer></script>
+  <script src="particles.js" defer></script>
+  <script src="code-environment.js" defer></script>
+  <script src="player.js" defer></script>
+  <script src="companions.js" defer></script>
+  <script src="weapons.js" defer></script>
+  <script src="enemies.js" defer></script>
+  <script src="boss.js" defer></script>
+  <script src="powerups.js" defer></script>
+  <script src="collision.js" defer></script>
+  <script src="waves.js" defer></script>
+  <script src="ui.js" defer></script>
+  <script src="game.js" defer></script>
+</body>
+</html>

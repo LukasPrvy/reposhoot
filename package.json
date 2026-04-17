@@ -1,0 +1,12 @@
+{
+  "name": "reposhoot",
+  "version": "1.0.4",
+  "description": "Space shooter game taking place in your own repository! Fly through your own source code and blast all those bugs!",
+  "bin": {
+    "reposhoot": "bin/reposhoot.js"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ]
+}
